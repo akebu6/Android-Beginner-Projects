@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">QuotesApp</string>
+    <string name="author_appears_here">Author appears here</string>
+    <string name="this_is_where_the_quote_will_be">This is where the quote will be</string>
+</resources>
