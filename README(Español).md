@@ -6,3 +6,4 @@ Los proyectos que van a encontrarse aquí incluyen: un simple juego de “3 en r
 El objetivo del juego es unir 3 “x” o “o” en línea recta (diagonal, vertical u horizontal), dentro de una cuadrícula de 3x3, tomando turnos con un amigo o la computadora 
 
 ## 2. Quotes App / App de Citas 
+Esta app toma citas de "https://api.quotable.io/" y las muestra, usando retrofit 2
