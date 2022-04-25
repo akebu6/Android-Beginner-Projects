@@ -7,3 +7,4 @@ Projects that will be found here include a simple Tic Tac Toe Game, a simple Cal
 
 
 ## 2. Quotes App 
+This app takes quotes from the "https://api.quotable.io/" and displays them, using retrofit 2 
