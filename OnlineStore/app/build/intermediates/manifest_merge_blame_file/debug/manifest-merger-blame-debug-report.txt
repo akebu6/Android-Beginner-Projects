@@ -1,0 +1,92 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.onlinestore"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:7:5-27:19
+14        android:allowBackup="true"
+14-->C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:8:9-35
+15        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+15-->[androidx.core:core:1.7.0] C:\Users\asima\.gradle\caches\transforms-3\ec8778f597115131b77fc5968136215d\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+16        android:debuggable="true"
+17        android:icon="@mipmap/ic_launcher"
+17-->C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:9:9-43
+18        android:label="@string/app_name"
+18-->C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:10:9-41
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:11:9-54
+20        android:supportsRtl="true"
+20-->C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:12:9-35
+21        android:testOnly="true"
+22        android:theme="@style/Theme.OnlineStore"
+22-->C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:14:9-49
+23        android:usesCleartextTraffic="true" >
+23-->C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:13:9-44
+24        <activity
+24-->C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:15:9-17:40
+25            android:name="com.example.onlinestore.SignupActivity"
+25-->C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:16:13-43
+26            android:exported="false" />
+26-->C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:17:13-37
+27        <activity
+27-->C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:18:9-26:20
+28            android:name="com.example.onlinestore.MainActivity"
+28-->C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:19:13-41
+29            android:exported="true" >
+29-->C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:20:13-36
+30            <intent-filter>
+30-->C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:21:13-25:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:22:17-69
+31-->C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:22:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:24:17-77
+33-->C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:24:27-74
+34            </intent-filter>
+35        </activity>
+36
+37        <provider
+37-->[com.squareup.picasso:picasso:2.71828] C:\Users\asima\.gradle\caches\transforms-3\050153ffffc6096c99781ef2e743a0ad\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+38            android:name="com.squareup.picasso.PicassoProvider"
+38-->[com.squareup.picasso:picasso:2.71828] C:\Users\asima\.gradle\caches\transforms-3\050153ffffc6096c99781ef2e743a0ad\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
+39            android:authorities="com.example.onlinestore.com.squareup.picasso"
+39-->[com.squareup.picasso:picasso:2.71828] C:\Users\asima\.gradle\caches\transforms-3\050153ffffc6096c99781ef2e743a0ad\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
+40            android:exported="false" />
+40-->[com.squareup.picasso:picasso:2.71828] C:\Users\asima\.gradle\caches\transforms-3\050153ffffc6096c99781ef2e743a0ad\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
+41        <provider
+41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\asima\.gradle\caches\transforms-3\69d291d347a635c15fd15a8466543966\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+42            android:name="androidx.startup.InitializationProvider"
+42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\asima\.gradle\caches\transforms-3\69d291d347a635c15fd15a8466543966\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+43            android:authorities="com.example.onlinestore.androidx-startup"
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\asima\.gradle\caches\transforms-3\69d291d347a635c15fd15a8466543966\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+44            android:exported="false" >
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\asima\.gradle\caches\transforms-3\69d291d347a635c15fd15a8466543966\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+45            <meta-data
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\asima\.gradle\caches\transforms-3\69d291d347a635c15fd15a8466543966\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+46                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\asima\.gradle\caches\transforms-3\69d291d347a635c15fd15a8466543966\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+47                android:value="androidx.startup" />
+47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\asima\.gradle\caches\transforms-3\69d291d347a635c15fd15a8466543966\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+48            <meta-data
+48-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\asima\.gradle\caches\transforms-3\5518efa1c1ca29993905068db3381641\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+49                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+49-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\asima\.gradle\caches\transforms-3\5518efa1c1ca29993905068db3381641\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+50                android:value="androidx.startup" />
+50-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\asima\.gradle\caches\transforms-3\5518efa1c1ca29993905068db3381641\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+51        </provider>
+52    </application>
+53
+54</manifest>
