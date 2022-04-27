@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:2:1-29:12
+ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:2:1-32:12
 MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\asima\.gradle\caches\transforms-3\e19861ce7b8563417dc1511f73c483f4\transformed\core-ktx-1.7.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\asima\.gradle\caches\transforms-3\1af98939a167f3aa8048d8f13e2b5b63\transformed\material-1.5.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\asima\.gradle\caches\transforms-3\e72a85dbb5c713d9ad71e95c488bc40d\transformed\constraintlayout-2.1.3\AndroidManifest.xml:2:1-11:12
@@ -47,20 +47,20 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\asima\.gradle\caches\transforms-3\b3b5854c62d88c11253ad4ee9675c88b\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\asima\.gradle\caches\transforms-3\c2136a09f4ba6174dc1f03fabe769ae4\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:exifinterface:27.1.0] C:\Users\asima\.gradle\caches\transforms-3\8cbe257449ab7c1c343bdb879215e1d1\transformed\exifinterface-27.1.0\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:2:1-29:12
-INJECTED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:2:1-29:12
+INJECTED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:2:1-32:12
 	package
 		ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:3:5-38
 		INJECTED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:2:1-29:12
+		ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:2:1-32:12
 		INJECTED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:2:1-29:12
+		ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:2:1-32:12
 		INJECTED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:2:11-69
@@ -69,7 +69,7 @@ ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\sr
 	android:name
 		ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:5:22-64
 application
-ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:7:5-27:19
+ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:7:5-30:19
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\asima\.gradle\caches\transforms-3\1af98939a167f3aa8048d8f13e2b5b63\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\asima\.gradle\caches\transforms-3\1af98939a167f3aa8048d8f13e2b5b63\transformed\material-1.5.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\asima\.gradle\caches\transforms-3\e72a85dbb5c713d9ad71e95c488bc40d\transformed\constraintlayout-2.1.3\AndroidManifest.xml:9:5-20
@@ -99,31 +99,37 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\asima\.gradle\cach
 	android:allowBackup
 		ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:14:9-49
+		ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:13:9-49
 	android:usesCleartextTraffic
-		ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:13:9-44
-activity#com.example.onlinestore.SignupActivity
+		ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:14:9-44
+activity#com.example.onlinestore.HomeScreen
 ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:15:9-17:40
 	android:exported
 		ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:16:13-43
-activity#com.example.onlinestore.MainActivity
-ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:18:9-26:20
+		ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:16:13-39
+activity#com.example.onlinestore.SignupActivity
+ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:18:9-20:40
 	android:exported
-		ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:20:13-36
+		ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:20:13-37
 	android:name
-		ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:19:13-41
+		ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:19:13-43
+activity#com.example.onlinestore.MainActivity
+ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:21:9-29:20
+	android:exported
+		ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:23:13-36
+	android:name
+		ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:22:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:21:13-25:29
+ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:24:13-28:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:22:17-69
+ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:25:17-69
 	android:name
-		ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:22:25-66
+		ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:25:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:24:17-77
+ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:27:17-77
 	android:name
-		ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:24:27-74
+		ADDED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml:27:27-74
 uses-sdk
 INJECTED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\AndroidManifest.xml

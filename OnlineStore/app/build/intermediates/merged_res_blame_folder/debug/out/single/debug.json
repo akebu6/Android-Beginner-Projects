@@ -1,19 +1,23 @@
 [
     {
-        "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\drawable_confirm_password.xml.flat",
         "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\drawable\\confirm_password.xml"
     },
     {
-        "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_home_screen.xml.flat",
+        "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\layout\\activity_home_screen.xml"
     },
     {
         "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\drawable_signup.jpg.flat",
         "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\drawable\\signup.jpg"
+    },
+    {
+        "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
         "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",

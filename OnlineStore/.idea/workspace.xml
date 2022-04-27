@@ -15,11 +15,20 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[067072513M102537]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[C:\Users\asima\.android\avd\2.7_QVGA_API_22.avd]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile" />
+        <option value="Kotlin Class" />
+        <option value="layoutResourceFile_vertical" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="28KxXYxMSJ7aI3NrpVuo2ZfCmoQ" />
   <component name="ProjectViewState">
@@ -38,6 +47,9 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="android.template.660382543">
+      <recent name="com.example.onlinestore" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\res\drawable" />
     </key>

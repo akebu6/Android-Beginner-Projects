@@ -2952,6 +2952,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView2
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3084,6 +3085,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_home_screen
 layout activity_main
 layout activity_signup
 layout custom_dialog
