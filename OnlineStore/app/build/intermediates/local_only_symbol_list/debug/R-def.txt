@@ -26,6 +26,8 @@ id signup_activity_edtLoginEmail
 id signup_activity_edtSignupConfirmPassword
 id signup_activity_edtSignupPassword
 id signup_activity_edtSignupUsername
+id textView2
+layout activity_home_screen
 layout activity_main
 layout activity_signup
 mipmap ic_launcher

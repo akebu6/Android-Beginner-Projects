@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/asima/AndroidStudioProjects/UdemyProjects/OnlineStore/app/src/main/res/layout/activity_fetch_eproducts.xml" value="0.25" />
+        <entry key="..\:/Users/asima/AndroidStudioProjects/UdemyProjects/OnlineStore/app/src/main/res/layout/activity_home_screen.xml" value="0.22447916666666667" />
+        <entry key="..\:/Users/asima/AndroidStudioProjects/UdemyProjects/OnlineStore/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/asima/AndroidStudioProjects/UdemyProjects/OnlineStore/app/src/main/res/layout/activity_signup.xml" value="0.25" />
+        <entry key="..\:/Users/asima/AndroidStudioProjects/UdemyProjects/OnlineStore/app/src/main/res/layout/brand_item_text_view.xml" value="0.33" />
+        <entry key="..\:/Users/asima/AndroidStudioProjects/UdemyProjects/OnlineStore/app/src/main/res/layout/e_product_row.xml" value="0.25" />
+        <entry key="..\:/Users/asima/AndroidStudioProjects/UdemyProjects/OnlineStore/app/src/main/res/layout/fragment_amount.xml" value="0.25" />
+        <entry key="..\:/Users/asima/AndroidStudioProjects/UdemyProjects/OnlineStore/app/src/main/res/layout/fragment_amountragment.xml" value="0.17074275362318841" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

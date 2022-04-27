@@ -22,6 +22,9 @@
         android:theme="@style/Theme.OnlineStore"
         android:usesCleartextTraffic="true" >
         <activity
+            android:name="com.example.onlinestore.HomeScreen"
+            android:exported="false" />
+        <activity
             android:name="com.example.onlinestore.SignupActivity"
             android:exported="false" />
         <activity
