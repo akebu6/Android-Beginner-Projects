@@ -2,7 +2,9 @@
 <project version="4">
   <component name="AndroidLayouts">
     <shared>
-      <config />
+      <config>
+        <target>android-32</target>
+      </config>
     </shared>
   </component>
   <component name="AutoImportSettings">
@@ -27,6 +29,7 @@
         <option value="layoutResourceFile" />
         <option value="Kotlin Class" />
         <option value="layoutResourceFile_vertical" />
+        <option value="resourceFile" />
       </list>
     </option>
   </component>
@@ -42,7 +45,7 @@
     <property name="cidr.known.project.marker" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -54,6 +57,9 @@
       <recent name="C:\Users\asima\AndroidStudioProjects\UdemyProjects\OnlineStore\app\src\main\res\drawable" />
     </key>
     <key name="android.template.-1115711509">
+      <recent name="com.example.onlinestore" />
+    </key>
+    <key name="android.template.-1002167">
       <recent name="com.example.onlinestore" />
     </key>
   </component>
