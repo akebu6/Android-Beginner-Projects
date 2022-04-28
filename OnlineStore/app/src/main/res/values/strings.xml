@@ -9,4 +9,7 @@
     <string name="confirm_password">Confirm password</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="verify_order">Verify Order</string>
+    <string name="continue_shopping">Continue Shopping</string>
+    <string name="decline">Decline</string>
 </resources>

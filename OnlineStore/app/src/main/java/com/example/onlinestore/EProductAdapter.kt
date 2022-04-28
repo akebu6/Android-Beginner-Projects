@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.fragment.app.FragmentManager
 import androidx.recyclerview.widget.RecyclerView
 import com.squareup.picasso.Picasso
 import org.w3c.dom.Text
@@ -59,12 +60,12 @@ class EProductAdapter(var context: Context, var arrayList: ArrayList<EProduct>) 
 
             imgAdd.setOnClickListener {
 
+                Person.addToCartProductID = id
                 val amountFragment = AmountFragment()
                 val fragmentManager = (itemView.context as Activity).fragmentManager
-                amountFragment.show(fragmentManager, "Amount")
+                amountFragment.show(fragmentManager, "AmountFragment")
 
             } // end of onClickListener
-
 
         } // end of initialiseUIComponents()
 
