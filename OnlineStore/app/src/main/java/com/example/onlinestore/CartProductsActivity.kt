@@ -8,19 +8,20 @@ import android.view.Menu
 import android.view.MenuItem
 import android.widget.ArrayAdapter
 import android.widget.ListView
+import android.widget.Toast
 import com.android.volley.Request
 import com.android.volley.toolbox.JsonArrayRequest
 import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
 import java.lang.reflect.Method
 
-class CartProductsActivity : AppCompatActivity() { // end of CartProductsActivity
-    // end of CartProductsActivity
+class CartProductsActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_cart_products)
 
-        val cartProductsListView: ListView = findViewById(R.id.cartProdcutsListView)
+        val cartProductsListView: ListView = findViewById(R.id.cartProductsListView)
 
         val cartURL = "http://192.168.162.110//OnlineStoreApp/fetch_temporary_order.php?email=" +
                 Person.email
@@ -89,7 +90,30 @@ class CartProductsActivity : AppCompatActivity() { // end of CartProductsActivit
 
             requestQ.add(stringRequest)
 
-        } // end of else if
+        } else if (item.itemId == R.id.verifyOrder) {
+
+            val verifyURL =
+                "http://192.168.162.110//OnlineStoreApp/verify_order.php?email=${Person.email}"
+            val requestQ = Volley.newRequestQueue(this@CartProductsActivity)
+            val stringRequest = StringRequest(Request.Method.GET, verifyURL,
+                { response->
+
+                    val intent = Intent(this, FinaliseShoppingActivity::class.java)
+                    Toast.makeText(this, "Order Verified", Toast.LENGTH_SHORT).show()
+                    intent.putExtra("LATEST_INVOICE_NUMBER", response)
+                    startActivity(intent)
+
+                },
+
+                { error->  val dialogBuilder = AlertDialog.Builder(this)
+                    dialogBuilder.setTitle("Message")
+                    dialogBuilder.setMessage(error.message)
+                    dialogBuilder.create().show()
+
+                }) // end of stringRequest
+
+            requestQ.add(stringRequest)
+        }
 
         return super.onOptionsItemSelected(item)
 

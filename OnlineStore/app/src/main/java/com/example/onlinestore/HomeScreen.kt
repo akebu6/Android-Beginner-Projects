@@ -41,7 +41,7 @@ class HomeScreen : AppCompatActivity() {
 
         requestQ.add(jsonAR)
 
-        brandsListView.setOnItemClickListener { adapterView, view, i, l ->
+        brandsListView.setOnItemClickListener { _, _, i, _ ->
 
             val tappedBrand = brandsList[i]
             val brandIntent = Intent(this@HomeScreen, FetchEProductsActivity::class.java)

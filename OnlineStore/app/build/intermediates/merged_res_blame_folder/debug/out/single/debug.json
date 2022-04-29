@@ -1,5 +1,13 @@
 [
     {
+        "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\layout_brand_item_text_view.xml.flat",
+        "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\layout\\brand_item_text_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\layout_fragment_amount.xml.flat",
+        "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\layout\\fragment_amount.xml"
+    },
+    {
         "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\drawable_confirm_password.xml.flat",
         "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\drawable\\confirm_password.xml"
     },
@@ -12,12 +20,12 @@
         "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\layout\\activity_home_screen.xml"
     },
     {
-        "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\drawable_signup.jpg.flat",
-        "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\drawable\\signup.jpg"
-    },
-    {
         "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\layout_e_product_row.xml.flat",
+        "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\layout\\e_product_row.xml"
     },
     {
         "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
@@ -28,16 +36,12 @@
         "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\drawable\\username.xml"
     },
     {
-        "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\drawable_login.jpg.flat",
-        "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\drawable\\login.jpg"
-    },
-    {
         "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\drawable_email.xml.flat",
         "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\drawable\\email.xml"
     },
     {
-        "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\menu_cart_menu.xml.flat",
+        "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\menu\\cart_menu.xml"
     },
     {
         "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
@@ -48,12 +52,68 @@
         "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\drawable\\lock.xml"
     },
     {
+        "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\drawable_plus.xml.flat",
+        "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\drawable\\plus.xml"
+    },
+    {
         "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\drawable_addtocart.png.flat",
+        "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\drawable\\addtocart.png"
+    },
+    {
+        "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_fetch_eproducts.xml.flat",
+        "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\layout\\activity_fetch_eproducts.xml"
+    },
+    {
+        "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_cart_products.xml.flat",
+        "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\layout\\activity_cart_products.xml"
+    },
+    {
+        "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\drawable_signup.jpg.flat",
+        "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\drawable\\signup.jpg"
+    },
+    {
+        "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\drawable_cs.xml.flat",
+        "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\drawable\\cs.xml"
+    },
+    {
+        "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\drawable_decline.xml.flat",
+        "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\drawable\\decline.xml"
+    },
+    {
+        "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_finalise_shopping.xml.flat",
+        "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\layout\\activity_finalise_shopping.xml"
+    },
+    {
+        "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\drawable_login.jpg.flat",
+        "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\drawable\\login.jpg"
+    },
+    {
+        "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\drawable_vo.xml.flat",
+        "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\drawable\\vo.xml"
+    },
+    {
+        "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_signup.xml.flat",
@@ -64,16 +124,8 @@
         "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
-    },
-    {
         "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
         "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
     },
     {
         "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
@@ -82,10 +134,6 @@
     {
         "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
     },
     {
         "merged": "C:\\Users\\asima\\AndroidStudioProjects\\UdemyProjects\\OnlineStore\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
