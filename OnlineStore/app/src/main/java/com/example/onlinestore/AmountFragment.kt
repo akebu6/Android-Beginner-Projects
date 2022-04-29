@@ -31,7 +31,7 @@ class AmountFragment : DialogFragment() {
             val ptoURL = "http://192.168.162.110/OnlineStoreApp/insert_temporary_order.php?" +
                     "email=${Person.email}" +
                     "&product_id=$" +
-                    "{Person.addToCartProductID}&amount=${edtEnterAmount.text.toString()}"
+                    "${Person.addToCartProductID}&amount=${edtEnterAmount.text.toString()}"
             val requestQ = Volley.newRequestQueue(activity)
             val stringRequest = StringRequest(Request.Method.GET, ptoURL,
                 { response ->

@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
             val stringRequest = StringRequest(Request.Method.GET, loginURL,
                 { response ->
 
-                    if (response.equals("Login Failed")) {
+                    if (response.equals("Login Failed!")) {
 
                         com.example.onlinestore.Person.email =
                             main_activity_edtLoginEmail.text.toString()

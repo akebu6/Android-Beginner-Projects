@@ -9,12 +9,16 @@
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">OnlineStore</string>
     <string name="confirm_password">Confirm password</string>
+    <string name="continue_shopping">Continue Shopping</string>
+    <string name="decline">Decline</string>
     <string name="enter_password">Enter password</string>
     <string name="enter_username">Enter username</string>
     <string name="enter_your_email_address">Enter email address...</string>
     <string name="enter_your_password">Enter password...</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="login">Login</string>
     <string name="signup">Signup</string>
+    <string name="verify_order">Verify Order</string>
     <style name="Theme.OnlineStore" parent="Theme.AppCompat.DayNight.NoActionBar">
         
         <item name="colorPrimary">@color/purple_500</item>

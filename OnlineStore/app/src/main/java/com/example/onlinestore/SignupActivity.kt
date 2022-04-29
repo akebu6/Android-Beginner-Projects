@@ -39,16 +39,12 @@ class SignupActivity : AppCompatActivity() {
                 val requestQ = Volley.newRequestQueue(this@SignupActivity)
                 val stringRequest = StringRequest(Request.Method.GET, signUpURL,
                     { response ->
-                        if (response.equals("Registration Successful!")) {
+                        if (response.equals("Registration Failed!")) {
                             val dialogBuilder = AlertDialog.Builder(this)
                             dialogBuilder.setTitle("Message")
                             dialogBuilder.setMessage(response)
                             dialogBuilder.create().show()
                         } else {
-//                            val dialogBuilder = AlertDialog.Builder(this)
-//                            dialogBuilder.setTitle("Message")
-//                            dialogBuilder.setMessage(response)
-//                            dialogBuilder.create().show()
 
                             Person.email = signup_activity_edtLoginEmail.text.toString()
 
