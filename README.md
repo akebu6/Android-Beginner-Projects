@@ -11,4 +11,6 @@ The objective of the game is to complete 3 "x" or "o" in a straight line (diagon
 This app takes quotes from the "https://api.quotable.io/" and displays them, using Retrofit 2.
 
 ### 3. Online App Store
-The
+The project introduces beginners to working with the server and pulling data from the server to display on an Android device.
+
+
