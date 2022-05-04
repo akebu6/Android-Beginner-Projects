@@ -5,8 +5,10 @@ Projects that will be found here include a simple Tic Tac Toe Game, a simple Cal
 
 ## 1. Tic Tac Toc Game
 The objective of the game is to complete 3 "x" or "o" in a straight line (diagonal, horizontal or vertical), in a 3X3 matrix, taking turns with a friend or the computer.
+The project is built using Views (XML).
 
 ## 2. Quotes App 
 This app takes quotes from the "https://api.quotable.io/" and displays them, using retrofit 2 
 
 ## 3. Online App Store
+The
