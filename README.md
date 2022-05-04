@@ -14,3 +14,7 @@ This app takes quotes from the "https://api.quotable.io/" and displays them, usi
 The project introduces beginners to working with the server and pulling data from the server to display on an Android device.
 
 
+
+## Projects Built Using Compose
+
+
