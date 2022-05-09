@@ -24,3 +24,6 @@ The objective of the game is to complete 3 "x" or "o" in a straight line (diagon
 
 ### 1. Compose Article
 
+
+### 2. Compose Quadrant
+
