@@ -6,6 +6,8 @@ This repo contains projects that are absolute beginner friendly for anyone looki
 
 ### 1. Dice Roller
 
+
+
 ### 2. Online App Store
 The project introduces beginners to working with the server (maked using PHP) and pulling data from the server to display on an Android device.
 <br>-This app uses <b>Volley</b> for the interactions with the server.
@@ -19,4 +21,6 @@ The objective of the game is to complete 3 "x" or "o" in a straight line (diagon
 
 
 ## Projects Built Using Compose
+
+### 1. Compose Article
 
