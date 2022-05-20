@@ -1,7 +1,7 @@
 # Android-Beginner-Projects
 
-This repo contains projects that are absolute beginner friendly for anyone looking to get started developing android apps using Kotlin. It continues projects created using XML and some created using Compose (the newest tech being used to develop Android app UIs faster using less code).
-<br>Projects that will be found here include a simple Tic Tac Toe Game, a simple Calculator app, a Quotes app, Pokemon Go clone and a E-Commerce app among others to get you started on your journey of becoming a Kotlin Android developer.
+This repo contains projects that are absolute beginner-friendly for anyone looking to get started developing android apps using Kotlin. It continues projects created using XML and some created using Compose (the newest tech being used to develop Android app UIs faster using less code).
+<br>Projects that will be found here include a simple Tic Tac Toe Game, a simple Calculator app, a Quotes app, a Pokemon Go clone, and an E-Commerce app among others to get you started on your journey of becoming a Kotlin Android developer.
 
 ## Projects Built Using Views
 
@@ -9,13 +9,13 @@ This repo contains projects that are absolute beginner friendly for anyone looki
 
 ### 2. Online App Store
 
-The project introduces beginners to working with the server (maked using PHP) and pulling data from the server to display on an Android device.
+The project introduces beginners to working with the server (made using PHP) and pulling data from the server to display on an Android device.
 <br>-This app uses <b>Volley</b> for the interactions with the server.
 <br>-It uses <b>Piccaso</b> for the process of the acquisition and representation of the images.
 
 ### 3. Quotes App
 
-This app takes quotes from the "https://api.quotable.io/" Api and dynamically displays them by the touch of the screen, using <b>Retrofit 2</b>.
+This app takes quotes from the "https://api.quotable.io/" API and dynamically displays them when you tap your screen, using <b>Retrofit 2</b>.
 
 ### 4. Tic Tac Toc Game
 
