@@ -30,4 +30,7 @@ The objective of the game is to complete 3 "x" or "o" in a straight line (diagon
 ### 3. Tip Calculator
 
 The tip calculator is a simple app used to easily calculate the amount of tip to be paid to your waiter. The app has two fields, one where you enter the total bill and the other where you enter the percentage of the tip. The app then calculates the tip and displays it to the user. The customer can also choose to round off the tip or to leave it as it is.  
-<summary> ![tip calculator](/readme-files/tip-calculator.png) </summary>
+<details>
+    <summary>Screenshot of the tip calculator</summary>
+    <img src="/readme-files/tip-calculator.png"> 
+</details>
