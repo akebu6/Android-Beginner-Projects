@@ -27,3 +27,6 @@ The objective of the game is to complete 3 "x" or "o" in a straight line (diagon
 
 ### 2. Compose Quadrant
 
+
+### 3. Tip Calculator
+The tip calculator is a simple app used to easily calculate the amount of tip to be paid to your waiter. The app has two fields, one where you enter the total bill ![bill field](/readme-files/bill-field.png) and the next where you enter the percentage the customer wishes to pay as a tip. The customer can also choose to round off the tip or to leave it as it is.  
