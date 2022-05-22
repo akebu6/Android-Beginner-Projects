@@ -27,6 +27,8 @@ The objective of the game is to complete 3 "x" or "o" in a straight line (diagon
 
 ### 2. Compose Quadrant
 
+This project shows the different layouts used in Compose which include: column, row, image and text composables. It is built using Jetpack Compose.
+
 ### 3. Tip Calculator
 
 The tip calculator is a simple app used to easily calculate the amount of tip to be paid to your waiter. The app has two fields, one where you enter the total bill and the other where you enter the percentage of the tip. The app then calculates the tip and displays it to the user. The customer can also choose to round off the tip or to leave it as it is.  
