@@ -40,9 +40,9 @@ The tip calculator is a simple app used to easily calculate the amount of tip to
 
 <details> 
     <summary><h2><strong>Special Projects:</strong></h2></summary>  
-    <h3> 1. Note Keeper </h3>
-<p> 
-This project is created using Java and XML. Beginners are encouraged to try and refactor it's code from Java to Kotlin and test their Kotlin skills along the way. Refactoring from Java to Kotlin is something that every Kotlin developer is encouraged to know but not a must. 
+    <p> 
+These projects is created using Java and XML. Beginners are encouraged to try and refactor their code from Java to Kotlin and test their Kotlin skills along the way. Refactoring from Java to Kotlin is something that every Kotlin developer is encouraged to know but not a must. 
 </p>
+    <h3> 1. Note Keeper </h3>
       
 </details> 
