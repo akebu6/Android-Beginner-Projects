@@ -1,0 +1,86 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.notekeeper"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->C:\Users\asima\AndroidStudioProjects\AAD\NoteKeeper\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->C:\Users\asima\AndroidStudioProjects\AAD\NoteKeeper\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->C:\Users\asima\AndroidStudioProjects\AAD\NoteKeeper\app\src\main\AndroidManifest.xml:5:5-28:19
+12        android:allowBackup="true"
+12-->C:\Users\asima\AndroidStudioProjects\AAD\NoteKeeper\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.7.0] C:\Users\asima\.gradle\caches\transforms-3\d8338c189490aee58604e111af57865f\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:icon="@mipmap/ic_launcher"
+16-->C:\Users\asima\AndroidStudioProjects\AAD\NoteKeeper\app\src\main\AndroidManifest.xml:7:9-43
+17        android:label="@string/app_name"
+17-->C:\Users\asima\AndroidStudioProjects\AAD\NoteKeeper\app\src\main\AndroidManifest.xml:8:9-41
+18        android:roundIcon="@mipmap/ic_launcher_round"
+18-->C:\Users\asima\AndroidStudioProjects\AAD\NoteKeeper\app\src\main\AndroidManifest.xml:9:9-54
+19        android:supportsRtl="true"
+19-->C:\Users\asima\AndroidStudioProjects\AAD\NoteKeeper\app\src\main\AndroidManifest.xml:10:9-35
+20        android:testOnly="true"
+21        android:theme="@style/Theme.NoteKeeper" >
+21-->C:\Users\asima\AndroidStudioProjects\AAD\NoteKeeper\app\src\main\AndroidManifest.xml:11:9-48
+22        <activity
+22-->C:\Users\asima\AndroidStudioProjects\AAD\NoteKeeper\app\src\main\AndroidManifest.xml:12:9-21:20
+23            android:name="com.example.notekeeper.NoteListActivity"
+23-->C:\Users\asima\AndroidStudioProjects\AAD\NoteKeeper\app\src\main\AndroidManifest.xml:13:13-45
+24            android:exported="true"
+24-->C:\Users\asima\AndroidStudioProjects\AAD\NoteKeeper\app\src\main\AndroidManifest.xml:14:13-36
+25            android:theme="@style/Theme.NoteKeeper.NoActionBar" >
+25-->C:\Users\asima\AndroidStudioProjects\AAD\NoteKeeper\app\src\main\AndroidManifest.xml:15:13-64
+26            <intent-filter>
+26-->C:\Users\asima\AndroidStudioProjects\AAD\NoteKeeper\app\src\main\AndroidManifest.xml:16:13-20:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->C:\Users\asima\AndroidStudioProjects\AAD\NoteKeeper\app\src\main\AndroidManifest.xml:17:17-69
+27-->C:\Users\asima\AndroidStudioProjects\AAD\NoteKeeper\app\src\main\AndroidManifest.xml:17:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->C:\Users\asima\AndroidStudioProjects\AAD\NoteKeeper\app\src\main\AndroidManifest.xml:19:17-77
+29-->C:\Users\asima\AndroidStudioProjects\AAD\NoteKeeper\app\src\main\AndroidManifest.xml:19:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity
+32-->C:\Users\asima\AndroidStudioProjects\AAD\NoteKeeper\app\src\main\AndroidManifest.xml:22:9-27:20
+33            android:name="com.example.notekeeper.NoteActivity"
+33-->C:\Users\asima\AndroidStudioProjects\AAD\NoteKeeper\app\src\main\AndroidManifest.xml:23:13-41
+34            android:exported="true"
+34-->C:\Users\asima\AndroidStudioProjects\AAD\NoteKeeper\app\src\main\AndroidManifest.xml:24:13-36
+35            android:label="@string/edit_note"
+35-->C:\Users\asima\AndroidStudioProjects\AAD\NoteKeeper\app\src\main\AndroidManifest.xml:25:13-46
+36            android:theme="@style/Theme.NoteKeeper.NoActionBar" >
+36-->C:\Users\asima\AndroidStudioProjects\AAD\NoteKeeper\app\src\main\AndroidManifest.xml:26:13-64
+37        </activity>
+38
+39        <provider
+39-->[androidx.emoji2:emoji2:1.0.0] C:\Users\asima\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+40            android:name="androidx.startup.InitializationProvider"
+40-->[androidx.emoji2:emoji2:1.0.0] C:\Users\asima\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+41            android:authorities="com.example.notekeeper.androidx-startup"
+41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\asima\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+42            android:exported="false" >
+42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\asima\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+43            <meta-data
+43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\asima\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+44                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\asima\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+45                android:value="androidx.startup" />
+45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\asima\.gradle\caches\transforms-3\db233f3ba8947fb0f91cd701b83dfe6a\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+46            <meta-data
+46-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\asima\.gradle\caches\transforms-3\45759b04922bc547a81513b82a38ba1e\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+47                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+47-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\asima\.gradle\caches\transforms-3\45759b04922bc547a81513b82a38ba1e\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+48                android:value="androidx.startup" />
+48-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\asima\.gradle\caches\transforms-3\45759b04922bc547a81513b82a38ba1e\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+49        </provider>
+50    </application>
+51
+52</manifest>

@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\asima\\.gradle\\daemon\\7.3.3\\com.example.notekeeper.app-mergeDebugResources-24:\\layout\\content_note.xml",
+        "source": "C:\\Users\\asima\\.gradle\\daemon\\7.3.3\\com.example.notekeeper.app-main-27:\\layout\\content_note.xml"
+    },
+    {
+        "merged": "C:\\Users\\asima\\.gradle\\daemon\\7.3.3\\com.example.notekeeper.app-mergeDebugResources-24:\\layout\\activity_note_list.xml",
+        "source": "C:\\Users\\asima\\.gradle\\daemon\\7.3.3\\com.example.notekeeper.app-main-27:\\layout\\activity_note_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\asima\\.gradle\\daemon\\7.3.3\\com.example.notekeeper.app-mergeDebugResources-24:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\asima\\.gradle\\daemon\\7.3.3\\com.example.notekeeper.app-main-27:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "com.example.notekeeper.app-mergeDebugResources-24:/layout/activity_note_list.xml",
+        "source": "com.example.notekeeper.app-main-27:/layout/activity_note_list.xml"
+    },
+    {
+        "merged": "C:\\Users\\asima\\.gradle\\daemon\\7.3.3\\com.example.notekeeper.app-mergeDebugResources-24:\\layout\\content_note_list.xml",
+        "source": "C:\\Users\\asima\\.gradle\\daemon\\7.3.3\\com.example.notekeeper.app-main-27:\\layout\\content_note_list.xml"
+    }
+]
