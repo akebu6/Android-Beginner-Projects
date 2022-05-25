@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">NoteKeeper</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_note"> Edit Note</string>
+    <string name="title_activity_note_list">NoteListActivity</string>
+    <string name="cancel_option">Cancel</string>
+    <string name="send_as_email_option">Send as email</string>
+    <string name="todo">TODO</string>
+</resources>
