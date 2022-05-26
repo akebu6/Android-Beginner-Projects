@@ -27,6 +27,8 @@ The objective of the game is to complete 3 "x" or "o" in a straight line (diagon
 
 ### 2. Compose Quadrant
 
+This project shows the different layouts used in Compose which include: column, row, image and text composables. It is built using Jetpack Compose.
+
 ### 3. Tip Calculator
 
 The tip calculator is a simple app used to easily calculate the amount of the tip to be paid to your waiter. The app has two fields, one where you enter the total bill and the other where you enter the percentage of the tip. The app then calculates the tip and displays it to the user. The customer can also choose to round off the tip or to leave it as it is.  
@@ -42,3 +44,12 @@ This project is built with Jetpack Compose, it has one large checked image that 
     <summary>Screenshot of the task manager</summary>
     <img src="/readme-files/task-manager.jpg"> 
 </details>
+
+<details> 
+    <summary><h2><strong>Special Projects:</strong></h2></summary>  
+    <p> 
+These projects is created using Java and XML. Beginners are encouraged to try and refactor their code from Java to Kotlin and test their Kotlin skills along the way. Refactoring from Java to Kotlin is something that every Kotlin developer is encouraged to know but not a must. 
+</p>
+    <h3> 1. Note Keeper </h3>
+      
+</details> 
