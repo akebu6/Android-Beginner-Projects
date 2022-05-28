@@ -25,7 +25,7 @@ The objective of the game is to complete 3 "x" or "o" in a straight line (diagon
 
 ### 1. Compose Article
 
-<deatils>
+<details>
     <summary>
         <h3><strong>2. Compose Quadrant</strong></h3>
         <p>
@@ -45,7 +45,7 @@ The objective of the game is to complete 3 "x" or "o" in a straight line (diagon
         <img src="/readme-files/tip-calculator.png"> 
     </details>
     </summary>
-</deatils>
+</details>
 
 ### 4. Task Manager
 
