@@ -23,7 +23,11 @@ The objective of the game is to complete 3 "x" or "o" in a straight line (diagon
 
 ## Projects Built Using Compose
 
-### 1. Compose Article
+<details>
+    <summary> 
+        <h3><strong>1. Compose Article</strong></h3>
+    </summary>   
+</details>     
 
 <details>
     <summary>
@@ -63,8 +67,7 @@ The objective of the game is to complete 3 "x" or "o" in a straight line (diagon
 <details> 
     <summary><h2><strong>Special Projects:</strong></h2></summary>  
     <p> 
-These projects is created using Java and XML. Beginners are encouraged to try and refactor their code from Java to Kotlin and test their Kotlin skills along the way. Refactoring from Java to Kotlin is something that every Kotlin developer is encouraged to know but not a must. 
-</p>
-    <h3> 1. Note Keeper </h3>
-      
+    These projects is created using Java and XML. Beginners are encouraged to try and refactor their code from Java to Kotlin and test their Kotlin skills along the way. Refactoring from Java to Kotlin is something that every Kotlin developer is encouraged to know but not a must. 
+    </p>
+    <h3><strong> 1. Note Keeper<strong></h3>
 </details> 
