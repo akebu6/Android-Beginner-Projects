@@ -47,13 +47,18 @@ The objective of the game is to complete 3 "x" or "o" in a straight line (diagon
     </details>
 </details>
 
-### 4. Task Manager
-
-This project is built with Jetpack Compose, it has one large checked image that will indicate when the task has been completed. This project is a great starting project for beginners to learn how to use Jetpack Compose.
 <details>
-    <summary>Screenshot of the task manager</summary>
-    <img src="/readme-files/task-manager.jpg"> 
-</details>
+    <summary>
+        <h3><strong>4. Task Manager</strong></h3>
+    </summary>
+    <p>
+    This project is built with Jetpack Compose, it has one large checked image that will indicate when the task has been completed. This project is a great starting project for beginners to learn how to use Jetpack Compose.
+    </p>
+    <details>
+        <summary>Screenshot of the task manager</summary>
+        <img src="/readme-files/task-manager.jpg"> 
+    </details>
+ </details>   
 
 <details> 
     <summary><h2><strong>Special Projects:</strong></h2></summary>  
