@@ -1,0 +1,23 @@
+name: Labeller
+
+on: [issues]
+  push:
+    branches: [ main ]
+
+jobs:
+  labels:
+
+    runs-on: ubuntu-latest
+    permissions: 
+        contents: read
+        issues: write
+
+    steps:
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+    - uses: EddieHubCommunity/gh-action-open-source-labels@main
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        owner-name: 'Akebu'
+        repository-name: 'Android-Beginner-Projects'
