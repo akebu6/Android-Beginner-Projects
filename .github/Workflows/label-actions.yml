@@ -3,8 +3,6 @@ name: 'Label Actions'
 on:
   issues:
     types: [unlabeled, labeled]
-  pull_request:
-    types: [unlabeled, labeled]
   discussion:
     types: [unlabeled, labeled]
 
