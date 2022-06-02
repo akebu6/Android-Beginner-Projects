@@ -1,0 +1,18 @@
+name: Welcome
+
+on:
+  issues:
+    types:
+      - opened
+
+jobs:
+  greeting:
+    if: github.repository == 'akebu6/Android-Beginner-Projects'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/first-interaction@v1.1.0
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: 'Thank you for opening an issue, the maintainer will have a look at it and get back to you as soon as possible. In the meantime you can look at the open issues and see if you would like to take up any😊'
+          pr-message: 'Thanks so much for your contribution, really appreciated! We will have a look and merge it if everything checks out!'
+          
