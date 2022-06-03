@@ -5,21 +5,40 @@ This repo contains projects that are absolute beginner-friendly for anyone looki
 
 ## Projects Built Using Views
 
-### 1. Dice Roller
+<details>
+    <summary>
+        <h3><strong>1. Dice Roller</strong></h3>
+    </summary>
+</details>        
 
-### 2. Online App Store
+<details>
+    <summary>
+        <h3><strong>2. Online App Store</strong></h3>
+    </summary>
+    <p>
+    The project introduces beginners to working with the server (made using PHP) and pulling data from the server to display on an Android device.
+    <br>-This app uses <b>Volley</b> for the interactions with the server.
+    <br>-It uses <b>Piccaso</b> for the process of the acquisition and representation of the images.
+    </p>
+</details>
 
-The project introduces beginners to working with the server (made using PHP) and pulling data from the server to display on an Android device.
-<br>-This app uses <b>Volley</b> for the interactions with the server.
-<br>-It uses <b>Piccaso</b> for the process of the acquisition and representation of the images.
+<details>
+    <summary>
+        <h3><strong>3. Quotes App</strong></h3>
+    </summary>
+    <p>
+    This app takes quotes from the "https://api.quotable.io/" API and dynamically displays them when you tap your screen, using <b>Retrofit 2</b>.
+     </p>
+</details>
 
-### 3. Quotes App
-
-This app takes quotes from the "https://api.quotable.io/" API and dynamically displays them when you tap your screen, using <b>Retrofit 2</b>.
-
-### 4. Tic Tac Toc Game
-
-The objective of the game is to complete 3 "x" or "o" in a straight line (diagonal, horizontal or vertical), in a 3X3 matrix, taking turns with a friend or the computer.
+<details>
+    <summary>
+        <h3><strong>4. Tic Tac Toc Game</strong></h3>
+    </summary>
+    <p>
+    The objective of the game is to complete 3 "x" or "o" in a straight line (diagonal, horizontal or vertical), in a 3X3 matrix, taking turns with a friend or the computer.
+    </p>
+</details>
 
 ## Projects Built Using Compose
 
