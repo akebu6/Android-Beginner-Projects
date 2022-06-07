@@ -1,20 +1,21 @@
-name: 'Label Actions'
+name: Import open source standard labels
 
 on:
-  issues:
-    types: [unlabeled, labeled]
-  discussion:
-    types: [unlabeled, labeled]
-
-permissions:
-  contents: read
-  issues: write
-  pull-requests: write
-  discussions: write
+  push:
+    branches: [ main ]
 
 jobs:
-  action:
+  labels:
+
     runs-on: ubuntu-latest
+
     steps:
-      - uses: dessant/label-actions@v2
-      
+    - uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+    - uses: EddieHubCommunity/gh-action-open-source-labels@main
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        owner-name: 'akebu6'
+        repository-name: 'Android-Beginner-Projects'
+        # force: true # optional to clear existing labels, default to true
