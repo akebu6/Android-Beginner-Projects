@@ -5,6 +5,8 @@ This repo contains projects that are absolute beginner-friendly for anyone looki
 
 ## How To Get Started
 
+## How To Contribute
+
 ## Projects Built Using Views
 
 <details>
