@@ -90,3 +90,10 @@ This repo contains projects that are absolute beginner-friendly for anyone looki
     </p>
     <h3><strong> 1. Note Keeper<strong></h3>
 </details> 
+        
+        
+### LICENSE
+
+© 2022 Akebu
+
+This repository is licensed under the MIT license. See LICENSE for details.        
