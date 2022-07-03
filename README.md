@@ -102,4 +102,4 @@ This repo contains projects that are absolute beginner-friendly for anyone looki
 
 © 2022 Akebu
 
-This repository is licensed under the MIT license. See LICENSE for details.        
+This repository is licensed under the MIT license. See LICENSE for more details.        
