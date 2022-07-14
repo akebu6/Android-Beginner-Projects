@@ -4,10 +4,9 @@ This repo contains projects that are absolute beginner-friendly for anyone looki
 <br>Projects that will be found here include a simple Tic Tac Toe Game, a simple Calculator app, a Quotes app, a Pokemon Go clone, and an E-Commerce app among others get you started on your journey of becoming a Kotlin Android developer.
 
 ## How To Get Started
-1. Download Android Studio compatible with your Operating System
+1. Download the version of Android Studio compatible with your Operating System
 2. Install it
-
-## How To Contribute
+3. Download the JDK if you don't have one already installed
 
 ## Projects Built Using Views
 
