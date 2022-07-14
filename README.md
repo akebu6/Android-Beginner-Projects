@@ -8,6 +8,9 @@ This repo contains projects that are absolute beginner-friendly for anyone looki
 2. Install it
 3. Download the JDK if you don't have one already installed
 
+## How to Contribute
+In order to start contributing to this repository, kindly read the **Contributing Guidelines** [here](https://github.com/akebu6/Android-Beginner-Projects/blob/main/.github/CONTRIBUTING.md)
+
 ## Projects Built Using Views
 
 <details>
