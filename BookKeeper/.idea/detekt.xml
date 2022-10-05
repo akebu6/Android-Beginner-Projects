@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DetektPluginSettings">
+    <option name="enableAllRules" value="true" />
+    <option name="enableFormatting" value="true" />
+    <option name="pluginJarPaths">
+      <set>
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/annotations-13.0.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/detekt-api-1.20.0.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/detekt-core-1.20.0.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/detekt-formatting-1.20.0.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/detekt-intellij-plugin-1.20.0.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/detekt-metrics-1.20.0.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/detekt-parser-1.20.0.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/detekt-psi-utils-1.20.0.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/detekt-report-html-1.20.0.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/detekt-report-sarif-1.20.0.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/detekt-report-txt-1.20.0.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/detekt-report-xml-1.20.0.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/detekt-rules-1.20.0.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/detekt-rules-complexity-1.20.0.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/detekt-rules-coroutines-1.20.0.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/detekt-rules-documentation-1.20.0.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/detekt-rules-empty-1.20.0.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/detekt-rules-errorprone-1.20.0.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/detekt-rules-exceptions-1.20.0.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/detekt-rules-naming-1.20.0.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/detekt-rules-performance-1.20.0.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/detekt-rules-style-1.20.0.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/detekt-tooling-1.20.0.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/detekt-utils-1.20.0.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/ec4j-core-0.3.0.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/jna-5.6.0.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/kotlin-compiler-embeddable-1.6.20.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/kotlin-daemon-embeddable-1.6.20.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/kotlin-logging-jvm-2.1.21.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/kotlin-reflect-1.6.20.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/kotlin-script-runtime-1.6.20.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/kotlin-stdlib-1.6.20.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/kotlin-stdlib-common-1.6.20.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/kotlin-stdlib-jdk7-1.6.20.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/kotlin-stdlib-jdk8-1.6.20.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/kotlinx-html-jvm-0.7.5.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/kotlinx-serialization-core-jvm-1.1.0.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/kotlinx-serialization-json-jvm-1.1.0.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/ktlint-core-0.45.2.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/ktlint-ruleset-experimental-0.45.2.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/ktlint-ruleset-standard-0.45.2.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/sarif4k-0.0.1.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/searchableOptions-1.20.0.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/slf4j-api-1.7.32.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/snakeyaml-1.30.jar" />
+        <option value="C:/Program Files/Android/Deteke1.20/Detekt IntelliJ Plugin/lib/trove4j-1.0.20200330.jar" />
+      </set>
+    </option>
+    <option name="treatAsErrors" value="true" />
+  </component>
+</project>
