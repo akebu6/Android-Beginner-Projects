@@ -17,6 +17,12 @@ In order to start contributing to this repository, kindly read the **Contributin
     <summary>
         <h3><strong>1. Dice Roller</strong></h3>
     </summary>
+    <p>
+    This app contains a dice that gives you a random values from one to six when you press the roll button. It is just a basic app which introduce beginners with the 
+    concept of random keyword and how we can return a random value to program through a function. 
+    Here is the walkthrough video of the Dice Roller App 
+      <img src = 'https://j.gifs.com/RlDQ1O.gif'/>
+    </p>
 </details>        
 
 <details>
