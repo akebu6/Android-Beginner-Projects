@@ -54,6 +54,19 @@ In order to start contributing to this repository, kindly read the **Contributin
     </p>
 </details>
 
+<details>
+<summary>
+<h3><strong>5.Tip Calculator</strong></h3>
+</summary>
+<p>
+This is just a basic tip calculator app used to calculate tip . you have to enter the base amount and set the tip percentage by sliding a seekbar and the tip amount and total amount you have to pay will be displayed.
+<p>Here is the screenshot of the app 
+ <img src = 'https://s4.aconvert.com/convert/p3r68-cdx67/al4rr-o5tio.jpg'/>
+</p>
+</p>
+
+</details>
+
 ## Projects Built Using Compose
 
 <details>
