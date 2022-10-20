@@ -20,8 +20,10 @@ In order to start contributing to this repository, kindly read the **Contributin
     <p>
     This app contains a dice that gives you a random values from one to six when you press the roll button. It is just a basic app which introduce beginners with the 
     concept of random keyword and how we can return a random value to program through a function. 
-    Here is the walkthrough video of the Dice Roller App 
-      <img src = 'https://j.gifs.com/RlDQ1O.gif'/>
+     <details>
+         <summary>
+             walkthrough video of the Dice Roller App </summary>
+         <img src = 'https://j.gifs.com/RlDQ1O.gif'/></details>
     </p>
 </details>        
 
@@ -42,6 +44,10 @@ In order to start contributing to this repository, kindly read the **Contributin
     </summary>
     <p>
     This app takes quotes from the "https://api.quotable.io/" API and dynamically displays them when you tap your screen, using <b>Retrofit 2</b>.
+         <details>
+         <summary>
+             Screenshot of Quotes app </summary>
+         <img src = 'readme-files/OuotesApp.png'/></details>
      </p>
 </details>
 
@@ -51,6 +57,10 @@ In order to start contributing to this repository, kindly read the **Contributin
     </summary>
     <p>
     The objective of the game is to complete 3 "x" or "o" in a straight line (diagonal, horizontal or vertical), in a 3X3 matrix, taking turns with a friend or the computer.
+         <details>
+         <summary>
+             Screenshot of tic tac toe app </summary>
+         <img src = 'readme-files/Tic tac toe.png'/></details>
     </p>
 </details>
 
@@ -60,9 +70,10 @@ In order to start contributing to this repository, kindly read the **Contributin
 </summary>
 <p>
 This is just a basic tip calculator app used to calculate tip . you have to enter the base amount and set the tip percentage by sliding a seekbar and the tip amount and total amount you have to pay will be displayed.
-<p>Here is the screenshot of the app 
- <img src = 'https://s4.aconvert.com/convert/p3r68-cdx67/al4rr-o5tio.jpg'/>
-</p>
+<details>
+         <summary>
+             Screenshot of tip calculator app </summary>
+         <img src = 'https://s4.aconvert.com/convert/p3r68-cdx67/al4rr-o5tio.jpg'/></details>
 </p>
 
 </details>
@@ -72,6 +83,10 @@ This is just a basic tip calculator app used to calculate tip . you have to ente
 <details>
     <summary> 
         <h3><strong>1. Compose Article</strong></h3>
+        <details>
+         <summary>
+             Screenshot of Compose Article app </summary>
+         <img src = 'readme-files/Show Compose.png'/></details>
     </summary>   
 </details>     
 
@@ -82,6 +97,10 @@ This is just a basic tip calculator app used to calculate tip . you have to ente
     <p>
         This project shows the different layouts used in Compose which include: column, row, image and text composables. It is built using Jetpack Compose.
     </p>
+    <details>
+         <summary>
+             Screenshot of Compose Quadrant app </summary>
+         <img src = 'readme-files/Compose Quadrant.png'/></details>
 </details>          
 
 <details>
