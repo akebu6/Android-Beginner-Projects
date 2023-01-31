@@ -6,7 +6,7 @@ This repo contains projects that are absolute beginner-friendly for anyone looki
 ## How To Get Started
 1. Download the version of Android Studio compatible with your Operating System
 2. Install it
-3. Download the JDK if you don't have one already installed
+3. Download the JDK if you don't have one already installed (you can download the LTS or the currently stable release, the choice is yours)
 
 ## How to Contribute
 In order to start contributing to this repository, kindly read the **Contributing Guidelines** [here](https://github.com/akebu6/Android-Beginner-Projects/blob/main/.github/CONTRIBUTING.md)
