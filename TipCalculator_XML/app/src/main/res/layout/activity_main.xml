@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvBaseAmt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="50dp"
+        android:text="Base"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvTipPercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/tvBaseAmt"
+        app:layout_constraintTop_toBottomOf="@+id/tvBaseAmt"
+        tools:text="24%" />
+
+    <TextView
+        android:id="@+id/tvTipAmt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp"
+        android:text="Tip"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="@+id/tvTipPercent"
+        app:layout_constraintTop_toBottomOf="@+id/tvTipPercent" />
+
+    <EditText
+        android:id="@+id/etBaseAmtDispR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:ems="8"
+        android:gravity="center"
+        android:hint="Bill Amount"
+        android:inputType="numberDecimal"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="@id/tvBaseAmt"
+        app:layout_constraintStart_toEndOf="@+id/tvBaseAmt"
+        app:layout_constraintTop_toTopOf="@id/tvBaseAmt" />
+
+    <SeekBar
+        android:id="@+id/sbBaseAmtPercentR"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:max="30"
+        app:layout_constraintBottom_toBottomOf="@id/tvTipPercent"
+        app:layout_constraintStart_toStartOf="@id/etBaseAmtDispR"
+        app:layout_constraintTop_toTopOf="@id/tvTipPercent"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <TextView
+        android:id="@+id/tvTipAmtR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tvTipAmt"
+        app:layout_constraintStart_toStartOf="@id/etBaseAmtDispR"
+        app:layout_constraintTop_toTopOf="@+id/tvTipAmt"
+        tools:text="19.96" />
+
+    <TextView
+        android:id="@+id/tvTotalAmtR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/tvTotalAmt"
+
+        app:layout_constraintStart_toStartOf="@id/etBaseAmtDispR"
+        app:layout_constraintTop_toTopOf="@+id/tvTotalAmt"
+        tools:text="103.11" />
+
+    <TextView
+        android:id="@+id/tvTotalAmt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Total"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="@+id/tvTipAmt"
+        app:layout_constraintTop_toBottomOf="@+id/tvTipAmt" />
+
+    <TextView
+        android:id="@+id/tvchangecolorR"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TextView"
+        android:textStyle="italic|bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sbBaseAmtPercentR" />
+</androidx.constraintlayout.widget.ConstraintLayout>

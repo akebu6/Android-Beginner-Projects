@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BookKeeper</string>
+    <string name="saved">Saved</string>
+    <string name="action_setting">Settings</string>
+    <string name="not_saved">Not Saved</string>
+    <string name="save">Save</string>
+    <string name="author">Author</string>
+    <string name="book">Book</string>
+    <string name="add_icon">icon</string>
+    <string name="cancel">Cancel</string>
+    <string name="icon">icon</string>
+    <string name="search">Search</string>
+    <string name="updated_book">Book Updated</string>
+    <string name="deleted_book">Book Deleted</string>
+    <string name="deleted">Deleted</string>
+    <string name="updated">Updated</string>
+</resources>

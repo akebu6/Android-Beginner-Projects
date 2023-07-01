@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/tableLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:gravity="center"
+    android:onClick="imageButtonTapped"
+    tools:context=".MainActivity">
+
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/tic_tac_toe_game"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/imgButton1"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:onClick="imageButtonTapped"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/place_holder" />
+
+        <ImageButton
+            android:id="@+id/imgButton2"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:onClick="imageButtonTapped"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/place_holder" />
+
+        <ImageButton
+            android:id="@+id/imgButton3"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:onClick="imageButtonTapped"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/place_holder" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/imgButton4"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:onClick="imageButtonTapped"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/place_holder" />
+
+        <ImageButton
+            android:id="@+id/imgButton5"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:onClick="imageButtonTapped"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/place_holder" />
+
+        <ImageButton
+            android:id="@+id/imgButton6"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:onClick="imageButtonTapped"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/place_holder" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/imgButton7"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:onClick="imageButtonTapped"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/place_holder" />
+
+        <ImageButton
+            android:id="@+id/imgButton8"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:onClick="imageButtonTapped"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/place_holder" />
+
+        <ImageButton
+            android:id="@+id/imgButton9"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:background="@color/black"
+            android:onClick="imageButtonTapped"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/place_holder" />
+    </TableRow>
+</TableLayout>

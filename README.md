@@ -1,46 +1,145 @@
-PennyWise
+# Android-Beginner-Projects
 
-contactForm.addEventListener('submit', emailValidation);
-==================
-## 💡 Inspiration
-The team was inspired to create PennyWise due to the prevailing numbers of students seen on a daily basis that struggle with their finances and not knowing where or what their money is spent on. We saw this as an opportunity to create PennyWise in order to help students make informed financial decisions.
+This repo contains projects that are absolute beginner-friendly for anyone looking to get started developing android apps using Kotlin. It continues projects created using XML and some created using Compose (the newest tech being used to develop Android app UIs faster using less code).
+<br>Projects that will be found here include a simple Tic Tac Toe Game, a simple Calculator app, a Quotes app, a Pokemon Go clone, and an E-Commerce app among others get you started on your journey of becoming a Kotlin Android developer.
 
-## 🤔 Purpose
-PennyWise is designed to be your next best friend who helps you keep track of your expenses as well as stay on track your spending, where you are spending it and help you stay within your financial budget.
+## How To Get Started
+1. Download the version of Android Studio compatible with your Operating System
+2. Install it
+3. Download the JDK if you don't have one already installed (you can download the LTS or the currently stable release, the choice is yours)
 
-## What it does
-PennyWise helps students stay above their finances in terms of creating a platform that they can use to track all their expenses and income budget. It also ensures that students stay within their student.
+## How to Contribute
+In order to start contributing to this repository, kindly read the **Contributing Guidelines** [here](https://github.com/akebu6/Android-Beginner-Projects/blob/main/.github/CONTRIBUTING.md)
 
-## 🎨 Design
-We were heavily inspired by the revised version of Double Diamond design process, which not only includes visual design, but a full-fledged research cycle in which you must discover and define your problem before tackling your solution & then finally deploy it.
+## Projects Built Using Views
 
-<img src="https://res.cloudinary.com/devpost/image/fetch/s--RDG-HzfY--/c_limit,f_auto,fl_lossy,q_auto:eco,w_900/https://assets.website-files.com/5e2ae40d598c476b087ac0cb/5e4541d9b89a7d396a6d6d36_Process%2520Focus2_1%25402x.png" />
+<details>
+    <summary>
+        <h3><strong>1. Dice Roller</strong></h3>
+    </summary>
+    <p>
+    This app contains a dice that gives you a random values from one to six when you press the roll button. It is just a basic app which introduce beginners with the 
+    concept of random keyword and how we can return a random value to program through a function. 
+     <details>
+         <summary>
+             walkthrough video of the Dice Roller App </summary>
+         <img src = 'https://j.gifs.com/RlDQ1O.gif'/></details>
+    </p>
+</details>        
 
-> 1. Discover: a deep dive into the problem we are trying to solve.
-> 2. Define: synthesizing the information from the discovery phase into a problem definition.
-> 3. Develop: think up solutions to the problem.
-> 4. Deliver: pick the best solution and build that.
+<details>
+    <summary>
+        <h3><strong>2. Online App Store</strong></h3>
+    </summary>
+    <p>
+    The project introduces beginners to working with the server (made using PHP) and pulling data from the server to display on an Android device.
+    <br>-This app uses <b>Volley</b> for the interactions with the server.
+    <br>-It uses <b>Piccaso</b> for the process of the acquisition and representation of the images.
+    </p>
+</details>
 
-PennyWise was designed using hand-drawn wireframes and the work was then split into frontend and backend, with each teammate working on a particular feature. 
+<details>
+    <summary>
+        <h3><strong>3. Quotes App</strong></h3>
+    </summary>
+    <p>
+    This app takes quotes from the "https://api.quotable.io/" API and dynamically displays them when you tap your screen, using <b>Retrofit 2</b>.
+         <details>
+         <summary>
+             Screenshot of Quotes app </summary>
+         <img src = 'readme-files/OuotesApp.png'/></details>
+     </p>
+</details>
 
-## 🛠 How we Built it
-- Qoom
-- HTML
-- CSS3
-- JavaScript
+<details>
+    <summary>
+        <h3><strong>4. Tic Tac Toc Game</strong></h3>
+    </summary>
+    <p>
+    The objective of the game is to complete 3 "x" or "o" in a straight line (diagonal, horizontal or vertical), in a 3X3 matrix, taking turns with a friend or the computer.
+         <details>
+         <summary>
+             Screenshot of tic tac toe app </summary>
+         <img src = 'readme-files/Tic tac toe.png'/></details>
+    </p>
+</details>
 
-## ✨ Proud Achievements
-Our proudest achievement was being able to use Qoom as our platform even though it was the first time using it. We were also able to ensure that the webapp works according to what we had set out; be able to track your expenses.
+<details>
+<summary>
+<h3><strong>5.Tip Calculator</strong></h3>
+</summary>
+<p>
+This is just a basic tip calculator app used to calculate tip . you have to enter the base amount and set the tip percentage by sliding a seekbar and the tip amount and total amount you have to pay will be displayed.
+<details>
+         <summary>
+             Screenshot of tip calculator app </summary>
+         <img src = 'https://s4.aconvert.com/convert/p3r68-cdx67/al4rr-o5tio.jpg'/></details>
+</p>
 
-## 😤 Challenges Encountered
-The biggest challenge that the team encountered was in trying to use Qoom for the first time. We also had to find alternative ways of collaborating on Qoom platform. The other challenge was in terms of the different timezones each teammate is in.
+</details>
 
-## 🙌 Insights from PennyWise
+## Projects Built Using Compose
 
-Throughout this project, the team experienced significant personal and professional growth:
+<details>
+    <summary> 
+        <h3><strong>1. Compose Article</strong></h3>
+        <details>
+         <summary>
+             Screenshot of Compose Article app </summary>
+         <img src = 'readme-files/Show Compose.png'/></details>
+    </summary>   
+</details>     
 
-- **Technical Skill Expansion:** Each member acquired new technical skills, ranging from programming languages to design tools, enhancing their expertise in the field.
-- **Behavioral Competency Development:** Collaborating on PennyWise fostered crucial behavioral skills such as communication, teamwork, leadership, and adaptability. Embracing diverse perspectives and open-mindedness were key lessons learned in achieving shared objectives.
+<details>
+    <summary>
+        <h3><strong>2. Compose Quadrant</strong></h3>
+    </summary> 
+    <p>
+        This project shows the different layouts used in Compose which include: column, row, image and text composables. It is built using Jetpack Compose.
+    </p>
+    <details>
+         <summary>
+             Screenshot of Compose Quadrant app </summary>
+         <img src = 'readme-files/Compose Quadrant.png'/></details>
+</details>          
 
-## 🚀 What is next for PennyWise
-Despite the initial challenges faced in the development of PennyWise, the team is dedicated to ensuring that College and University students will have a platform to use in order to track their expenses. The team plans on developing a mobile application to run side-by-side with the webapp.
+<details>
+    <summary>
+        <h3><strong>3. Tip Calculator</strong></h3> 
+    </summary>
+    <p>
+    The tip calculator is a simple app used to easily calculate the amount of the tip to be paid to your waiter. The app has two fields, one where you enter the total bill and the other where you enter the percentage of the tip. The app then calculates the tip and displays it to the user. The customer can also choose to round off the tip or to leave it as it is. 
+    </p>
+    <details>
+        <summary>Screenshot of the tip calculator</summary>
+        <img src="/readme-files/tip-calculator.png"> 
+    </details>
+</details>
+
+<details>
+    <summary>
+        <h3><strong>4. Task Manager</strong></h3>
+    </summary>
+    <p>
+    This project is built with Jetpack Compose, it has one large checked image that will indicate when the task has been completed. This project is a great starting project for beginners to learn how to use Jetpack Compose.
+    </p>
+    <details>
+        <summary>Screenshot of the task manager</summary>
+        <img src="/readme-files/task-manager.jpg"> 
+    </details>
+ </details>   
+
+<details> 
+    <summary><h2><strong>Special Projects:</strong></h2></summary>  
+    <p> 
+    These projects is created using Java and XML. Beginners are encouraged to try and refactor their code from Java to Kotlin and test their Kotlin skills along the way. Refactoring from Java to Kotlin is something that every Kotlin developer is encouraged to know but not a must. 
+    </p>
+    <h3><strong> 1. Note Keeper<strong></h3>
+</details> 
+        
+        
+### LICENSE
+
+© 2022 Akebu
+
+This repository is licensed under the MIT license. See LICENSE for more details.        
