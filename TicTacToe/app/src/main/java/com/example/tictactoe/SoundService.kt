@@ -4,6 +4,7 @@ import android.app.Service
 import android.content.Intent
 import android.media.MediaPlayer
 import android.os.IBinder
+import android.util.Log
 
 class SoundService: Service() {
 
@@ -33,5 +34,7 @@ class SoundService: Service() {
         stopSelf()
         super.onDestroy()
     }
+
+
 
 }

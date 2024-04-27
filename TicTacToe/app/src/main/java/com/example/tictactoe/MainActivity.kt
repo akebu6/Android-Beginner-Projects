@@ -6,6 +6,7 @@ import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.view.View
 import android.widget.ImageButton
 import android.widget.TableLayout
@@ -369,5 +370,11 @@ class MainActivity : AppCompatActivity() {
         } // end of if statement
 
     } // end of checkDrawState function
+
+    // release all the sound resources after the activity is destroyed
+    override fun onDestroy() {
+        super.onDestroy()
+        stopService(Intent(this, SoundService::class.java))
+    }
 
 } // end of mainActivity class
