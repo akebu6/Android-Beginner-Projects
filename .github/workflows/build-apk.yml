@@ -1,4 +1,4 @@
-name: Build DiceRoller APK
+name: Build Android APKs
 
 on:
   push:
@@ -13,8 +13,23 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - project: DiceRoller
+            gradle: "7.0.2"
+          - project: QuotesApp
+            gradle: "7.2"
+          - project: TicTacToe
+            gradle: "7.2"
+          - project: TipCalculator
+            gradle: "7.2"
+          - project: TaskManager
+            gradle: "7.2"
+
     steps:
-      - name: Checkout repository
+      - name: Download repository
         uses: actions/checkout@v4
 
       - name: Set up Java 11
@@ -23,23 +38,26 @@ jobs:
           distribution: temurin
           java-version: "11"
 
-      - name: Download Gradle with retries
+      - name: Download Gradle
         run: |
           curl --fail --location \
             --retry 5 \
             --retry-delay 10 \
             --retry-all-errors \
             --connect-timeout 30 \
-            --output /tmp/gradle-7.0.2-bin.zip \
-            https://downloads.gradle.org/distributions/gradle-7.0.2-bin.zip
-          unzip -q /tmp/gradle-7.0.2-bin.zip -d /tmp
+            --output "/tmp/gradle-${{ matrix.gradle }}-bin.zip" \
+            "https://downloads.gradle.org/distributions/gradle-${{ matrix.gradle }}-bin.zip"
+          unzip -q "/tmp/gradle-${{ matrix.gradle }}-bin.zip" -d /tmp
 
-      - name: Build debug APK
-        working-directory: DiceRoller
-        run: /tmp/gradle-7.0.2/bin/gradle --no-daemon assembleDebug
+      - name: Build ${{ matrix.project }} APK
+        run: |
+          "/tmp/gradle-${{ matrix.gradle }}/bin/gradle" \
+            --no-daemon \
+            -p "${{ matrix.project }}" \
+            assembleDebug
 
-      - name: Upload APK
+      - name: Save ${{ matrix.project }} APK
         uses: actions/upload-artifact@v4
         with:
-          name: DiceRoller-debug-apk
-          path: DiceRoller/app/build/outputs/apk/debug/*.apk
+          name: ${{ matrix.project }}-debug-apk
+          path: ${{ matrix.project }}/app/build/outputs/apk/debug/*.apk
