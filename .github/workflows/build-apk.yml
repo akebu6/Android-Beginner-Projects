@@ -1,0 +1,63 @@
+name: Build Android APKs
+
+on:
+  push:
+    branches:
+      - "**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - project: DiceRoller
+            gradle: "7.0.2"
+          - project: QuotesApp
+            gradle: "7.2"
+          - project: TicTacToe
+            gradle: "7.2"
+          - project: TipCalculator
+            gradle: "7.2"
+          - project: TaskManager
+            gradle: "7.2"
+
+    steps:
+      - name: Download repository
+        uses: actions/checkout@v4
+
+      - name: Set up Java 11
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "11"
+
+      - name: Download Gradle
+        run: |
+          curl --fail --location \
+            --retry 5 \
+            --retry-delay 10 \
+            --retry-all-errors \
+            --connect-timeout 30 \
+            --output "/tmp/gradle-${{ matrix.gradle }}-bin.zip" \
+            "https://downloads.gradle.org/distributions/gradle-${{ matrix.gradle }}-bin.zip"
+          unzip -q "/tmp/gradle-${{ matrix.gradle }}-bin.zip" -d /tmp
+
+      - name: Build ${{ matrix.project }} APK
+        run: |
+          "/tmp/gradle-${{ matrix.gradle }}/bin/gradle" \
+            --no-daemon \
+            -p "${{ matrix.project }}" \
+            assembleDebug
+
+      - name: Save ${{ matrix.project }} APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.project }}-debug-apk
+          path: ${{ matrix.project }}/app/build/outputs/apk/debug/*.apk
