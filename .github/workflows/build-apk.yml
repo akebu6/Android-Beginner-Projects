@@ -17,17 +17,26 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Set up Java
+      - name: Set up Java 11
         uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: "11"
 
+      - name: Download Gradle with retries
+        run: |
+          curl --fail --location \
+            --retry 5 \
+            --retry-delay 10 \
+            --retry-all-errors \
+            --connect-timeout 30 \
+            --output /tmp/gradle-7.0.2-bin.zip \
+            https://downloads.gradle.org/distributions/gradle-7.0.2-bin.zip
+          unzip -q /tmp/gradle-7.0.2-bin.zip -d /tmp
+
       - name: Build debug APK
         working-directory: DiceRoller
-        run: |
-          chmod +x ./gradlew
-          ./gradlew assembleDebug
+        run: /tmp/gradle-7.0.2/bin/gradle --no-daemon assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
